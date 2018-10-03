@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gamedevelepors.funcandi.brainbooster">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Levels.Level1Activity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="gamedevelepors.funcandi.brainbooster.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Levels.Level2Activity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="gamedevelepors.funcandi.brainbooster.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Levels.Level3Activity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="gamedevelepors.funcandi.brainbooster.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Levels.Level4Activity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="gamedevelepors.funcandi.brainbooster.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Levels.Level5Activity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="gamedevelepors.funcandi.brainbooster.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Levels.Level6Activity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="gamedevelepors.funcandi.brainbooster.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Levels.Level7Activity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="gamedevelepors.funcandi.brainbooster.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Levels.Level8Activity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="gamedevelepors.funcandi.brainbooster.MainActivity" />
+        </activity>
+        <activity android:name=".EndActivity" />
+    </application>
+
+</manifest>
